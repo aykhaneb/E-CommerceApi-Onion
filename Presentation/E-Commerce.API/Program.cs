@@ -19,7 +19,6 @@ namespace E_Commerce.API
             .AddJsonFile("appsettings.json", optional: false)
             .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true);
 
-
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
